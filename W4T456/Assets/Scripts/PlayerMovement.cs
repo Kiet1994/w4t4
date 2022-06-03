@@ -78,7 +78,7 @@ public class PlayerMovement : MonoBehaviour
         if (isGrounded())
         {
             body.velocity = new Vector2(body.velocity.x, PowerJump);
-            //anim.SetTrigger("jump");
+            anim.SetTrigger("jump");
         }
     }
 }
